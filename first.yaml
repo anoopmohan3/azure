@@ -3,7 +3,7 @@ stages:
   jobs:
   - job: BuildJob
     steps:
-    - script: echo I'm from Building!
+    - script: echo "I'm from Building!"
 - stage: Test
   jobs:
   - job: TestOnWindows
